@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "createplus_crafting:raw_titan"
+    }
+  },
+  "result": {
+    "item": "createplus_crafting:raw_titan_block",
+    "count": 1
+  }
+}

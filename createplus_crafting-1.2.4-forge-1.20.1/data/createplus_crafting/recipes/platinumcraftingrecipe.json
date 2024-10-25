@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 1,
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava"
+    },
+    {
+      "amount": 1,
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createplus_crafting:platinum_ingot"
+    }
+  ]
+}
