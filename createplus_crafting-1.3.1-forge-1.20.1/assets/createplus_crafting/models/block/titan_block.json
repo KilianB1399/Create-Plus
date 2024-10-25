@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createplus_crafting:block/titanium_block",
+    "particle": "createplus_crafting:block/titanium_block"
+  },
+  "render_type": "solid"
+}
