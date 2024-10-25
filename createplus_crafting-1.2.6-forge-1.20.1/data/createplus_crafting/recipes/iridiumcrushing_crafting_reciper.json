@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "processingTime": 2500,
+  "results": [
+    {
+      "chance": 0.025,
+      "item": "createplus_crafting:pulverized_iridium"
+    },
+    {
+      "chance": 0.975,
+      "item": "minecraft:air"
+    }
+  ]
+}

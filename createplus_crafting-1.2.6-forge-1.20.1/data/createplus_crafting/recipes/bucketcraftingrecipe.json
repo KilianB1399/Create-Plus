@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "createplus_crafting:iridium_plate"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "createplus_crafting:crude_oil_bucket",
+    "count": 16
+  }
+}
