@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "amount": 4,
+      "item": "minecraft:quartz"
+    },
+    {
+      "amount": 750,
+      "fluid": "createplus_crafting:moltencarbon"
+    },
+    {
+      "amount": 2,
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "minecraft:diamond"
+    }
+  ]
+}

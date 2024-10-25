@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createplus_crafting:iridiumingot"
+    }
+  ],
+  "processingTime": 950,
+  "results": [
+    {
+      "chance": 0.05,
+      "count": 2,
+      "item": "createplus_crafting:pulverized_iridium"
+    },
+    {
+      "chance": 0.75,
+      "count": 5,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.95,
+      "item": "createplus_crafting:iridiumingot"
+    }
+  ]
+}
