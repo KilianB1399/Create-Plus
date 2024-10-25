@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:platinum_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.platinum_smith.title"
+    },
+    "description": {
+      "translate": "advancements.platinum_smith.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "platinum_smith_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_pickaxe"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    },
+    "platinum_smith_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_axe"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    },
+    "platinum_smith_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_sword"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    },
+    "platinum_smith_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_shovel"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    },
+    "platinum_smith_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_hoe"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "createplus_crafting:the_shiny_metal"
+}

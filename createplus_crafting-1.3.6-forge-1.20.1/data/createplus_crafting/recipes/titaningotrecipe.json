@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 450,
+  "experience": 2.5,
+  "ingredient": {
+    "item": "createplus_crafting:raw_titan"
+  },
+  "result": "createplus_crafting:titan_ingot"
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:moltencarbon_bucket"
+    },
+    "title": {
+      "translate": "advancements.liquid_fuel.title"
+    },
+    "description": {
+      "translate": "advancements.liquid_fuel.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "liquid_fuel_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:moltencarbon_bucket"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/lava_bucket"
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:iridium_gear"
+    },
+    "title": {
+      "translate": "advancements.gearsof_iridium.title"
+    },
+    "description": {
+      "translate": "advancements.gearsof_iridium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gearsof_iridium_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:iridium_gear"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "createplus_crafting:rare_discovery"
+}

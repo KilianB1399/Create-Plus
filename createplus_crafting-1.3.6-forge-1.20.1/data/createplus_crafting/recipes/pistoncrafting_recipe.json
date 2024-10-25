@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ece"
+  ],
+  "key": {
+    "a": {
+      "item": "createplus_crafting:iridium_gear"
+    },
+    "b": {
+      "item": "minecraft:slime_ball"
+    },
+    "c": {
+      "item": "createplus_crafting:iridium_plate"
+    },
+    "d": {
+      "item": "minecraft:piston"
+    },
+    "e": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:sticky_piston",
+    "count": 6
+  }
+}

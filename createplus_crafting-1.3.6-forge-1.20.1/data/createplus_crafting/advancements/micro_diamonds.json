@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    "title": {
+      "translate": "advancements.micro_diamonds.title"
+    },
+    "description": {
+      "translate": "advancements.micro_diamonds.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "micro_diamonds_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:diamondnugget"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/mine_diamond"
+}
