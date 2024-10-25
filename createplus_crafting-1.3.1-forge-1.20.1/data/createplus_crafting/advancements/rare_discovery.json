@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:iridiumingot"
+    },
+    "title": {
+      "translate": "advancements.rare_discovery.title"
+    },
+    "description": {
+      "translate": "advancements.rare_discovery.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rare_discovery_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:iridiumingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6
+  },
+  "parent": "minecraft:story/mine_diamond"
+}

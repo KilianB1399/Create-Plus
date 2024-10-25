@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:iridium_plate"
+    },
+    "title": {
+      "translate": "advancements.iridium_reinforcement.title"
+    },
+    "description": {
+      "translate": "advancements.iridium_reinforcement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iridium_reinforcement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:iridium_plate"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "createplus_crafting:rare_discovery"
+}

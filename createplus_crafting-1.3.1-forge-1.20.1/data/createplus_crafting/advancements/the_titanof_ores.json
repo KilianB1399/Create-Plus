@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "createplus_crafting:titan_ore"
+    },
+    "title": {
+      "translate": "advancements.the_titanof_ores.title"
+    },
+    "description": {
+      "translate": "advancements.the_titanof_ores.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_titanof_ores_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:titan_ore"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:platinum_nugget"
+    },
+    "title": {
+      "translate": "advancements.little_shine.title"
+    },
+    "description": {
+      "translate": "advancements.little_shine.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "little_shine_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:platinum_nugget"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "createplus_crafting:the_shiny_metal"
+}

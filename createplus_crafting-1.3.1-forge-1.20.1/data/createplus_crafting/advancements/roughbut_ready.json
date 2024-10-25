@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "createplus_crafting:raw_titan_block"
+    },
+    "title": {
+      "translate": "advancements.roughbut_ready.title"
+    },
+    "description": {
+      "translate": "advancements.roughbut_ready.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "roughbut_ready_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createplus_crafting:raw_titan_block"
+            ],
+            "count": {
+              "min": 0,
+              "max": 45
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "createplus_crafting:freshly_mined"
+}
