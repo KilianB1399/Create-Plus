@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "createplus_crafting:blocks/titan_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createplus_crafting:titan_ore"
+        }
+      ]
+    }
+  ]
+}

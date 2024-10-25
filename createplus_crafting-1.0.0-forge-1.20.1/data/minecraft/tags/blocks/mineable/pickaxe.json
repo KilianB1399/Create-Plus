@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "createplus_crafting:titan_ore",
+    "createplus_crafting:titan_block",
+    "createplus_crafting:raw_titan_block"
+  ]
+}

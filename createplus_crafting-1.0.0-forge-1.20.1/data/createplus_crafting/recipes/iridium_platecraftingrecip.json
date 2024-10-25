@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "createplus_crafting:iridiumingot"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "createplus_crafting:iridiumplate"
+    }
+  ]
+}

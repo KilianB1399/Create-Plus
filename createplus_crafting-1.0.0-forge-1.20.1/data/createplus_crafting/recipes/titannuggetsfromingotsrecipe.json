@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "createplus_crafting:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "createplus_crafting:titannugget",
+    "count": 9
+  }
+}

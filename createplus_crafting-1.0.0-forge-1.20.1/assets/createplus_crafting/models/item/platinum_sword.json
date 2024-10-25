@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "createplus_crafting:item/platinum_sword"
+  }
+}

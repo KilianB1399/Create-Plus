@@ -1,0 +1,35 @@
+{
+  "type": "create:crafting",
+  "ingredients": [
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    },
+    {
+      "item": "createplus_crafting:diamondnugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}
